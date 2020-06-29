@@ -6,6 +6,7 @@
     <RootNamespace>CIB.CLI</RootNamespace>
     <AssemblyName>CIB</AssemblyName>
     <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>CLI.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

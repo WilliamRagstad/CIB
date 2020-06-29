@@ -12,6 +12,6 @@ namespace CIB.Core
         public static string ExecutableFileExt = ".cxe";
         public static string ExecutableFileName = "Compact Executable";
         public static string IntermediateBytecodeExt = ".cib";
-        public static string IntermediateBytecodeName = "Compact Intermediate Byte-Code";
+        public static string IntermediateBytecodeName = "Compact Intermediate ByteCode";
     }
 }

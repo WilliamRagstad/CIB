@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CIB.Core.Data
 {
-    enum TokenType
+    public enum TokenType
     {
         Instruction,
         Type,
