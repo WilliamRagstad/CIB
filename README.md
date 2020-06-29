@@ -1,2 +1,2 @@
 # Compact Intermediate Bytecode
- Compact Intermediate Byte-code language (CIB) is a cross platform virtual machine executable file format.
+ Compact Intermediate Bytecode language (CIB) is a cross platform virtual machine executable file format.
