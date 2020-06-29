@@ -1,0 +1,8 @@
+.var greeting string "Hello, "
+
+.global
+.entry
+main(string[] args):
+    var greeting2 string "world!"
+    syscall print greeting + greeting2
+    return

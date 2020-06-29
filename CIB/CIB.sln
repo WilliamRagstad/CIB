@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIB CLI", "CIB CLI\CIB CLI.csproj", "{B8343B7C-6B61-489B-B4A1-E02B4C9CB7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIB Core", "CIB Core\CIB Core.csproj", "{5467D552-08AD-4D2C-882E-6FF445235D53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8343B7C-6B61-489B-B4A1-E02B4C9CB7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8343B7C-6B61-489B-B4A1-E02B4C9CB7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8343B7C-6B61-489B-B4A1-E02B4C9CB7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8343B7C-6B61-489B-B4A1-E02B4C9CB7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5467D552-08AD-4D2C-882E-6FF445235D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5467D552-08AD-4D2C-882E-6FF445235D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5467D552-08AD-4D2C-882E-6FF445235D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5467D552-08AD-4D2C-882E-6FF445235D53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA8E16FC-920A-437D-92CA-32E9181CB644}
+	EndGlobalSection
+EndGlobal
