@@ -12,5 +12,15 @@ namespace CIB.Core.Data
         {
             this.tokens = tokens;
         }
+
+        private Node ast;
+        public Node Parse()
+        {
+            ast = new Node(NodeType.Root);
+
+
+
+            return ast;
+        }
     }
 }

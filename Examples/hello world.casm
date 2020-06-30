@@ -1,8 +1,16 @@
-.var greeting string "Hello, "
+.var greeting string "Hello, "   ; The phrase to use
+.var suffix char '!'             ; How to exclaim the greeting
 
 .global
 .entry
-main(string[] args):
-    var greeting2 string "world!"
-    syscall print greeting + greeting2
+main(string[] args)
+    var greeting2 string "world" ; Subject
+    syscall print greeting + greeting2 + suffix
+    add $t[ (0 + 1) * 5 ] 0 1
+    jeq &end $t[5] 1
     return
+end:
+    call exit
+
+exit()
+    exit 0

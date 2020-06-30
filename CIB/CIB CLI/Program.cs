@@ -13,6 +13,8 @@ namespace CIB.CLI
     {
         static void Main(string[] args)
         {
+            args = new[] { "-a", @"C:\Users\willi\odrive\Google Drive\Programming Projects\- C#\Compact Intermediate Bytecode (CIB)\Examples\hello world.casm" };
+
             ArgumentsTemplate argumentsTemplate = GetArgumentsTemplate();
             Arguments arguments = Arguments.Parse(args, (char)KeySelector.Linux);
             if (arguments.Length == 0 || arguments.Keyless.Contains("help")) { argumentsTemplate.ShowManual(HelpFormatting.ShowVersion); return; }
