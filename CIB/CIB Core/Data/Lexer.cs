@@ -64,8 +64,9 @@ namespace CIB.Core.Data
                     case '-':
                     case '*':
                     case '/':
-                    case '&':
-                    case '|':
+                    case '&':   //Bitwise and
+                    case '|':   // or
+                    case '^':   // xor
                         addPrevToken(isBody, ref isInstruction);
                         addToken(TokenType.Operation, cc);
                         continue;
